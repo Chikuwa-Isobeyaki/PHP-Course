@@ -8,6 +8,9 @@
 </head>
 <body>
   <?php
+  echo 'I\'m studying';
+  ?><br>
+  <?php
   echo "I'm \"studying\"";
   ?>
 </body>
