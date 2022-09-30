@@ -8,6 +8,8 @@
 </head>
 <body>
   <!-- $_REQUEST[]でformから受け取り -->
+  <!-- $_REQUEST[]はGETとPOSTどちらも対応している -->
+  <!-- $_REQUEST[]はURLで不正に操作される恐れがある -->
   <!-- htmlspecialcharsで不正な入力やプログラムが入ってこないようにする -->
   <?php if (!empty($_REQUEST['my_name'])): ?>
    <p>お名前:<?php echo htmlspecialchars($_REQUEST['my_name'], ENT_QUOTES) ; ?></p>
