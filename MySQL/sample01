@@ -1,0 +1,3 @@
+SELECT * FROM items;
+
+INSERT INTO items SET id=100, name="商品100";
