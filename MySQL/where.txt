@@ -1,0 +1,16 @@
+SELECT * FROM my_items WHERE id=1;
+
+SELECT * FROM my_items WHERE id>1;
+
+SELECT * FROM my_items WHERE id>=1;
+
+SELECT * FROM my_items WHERE id!=1;
+
+LIKEは含むという意味
+SELECT * FROM `my_items` WHERE keyword LIKE "%赤い%";
+
+SELECT * FROM `my_items` WHERE price > 100;
+
+SELECT * FROM `my_items` WHERE price > 100 AND price < 200;
+
+SELECT * FROM `my_items` WHERE price > 100 OR price < 200;
