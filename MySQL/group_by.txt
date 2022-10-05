@@ -1,0 +1,7 @@
+各itemが何個売れたか確認
+group by でitemをグループ化
+
+SELECT item_id, SUM(count) from carts GROUP BY item_id;
+
+SELECT item_id, item_name, SUM(count) from my_items, carts 
+WHERE my_items.id = carts.item_id GROUP BY item_id;
