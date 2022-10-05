@@ -1,0 +1,5 @@
+left joinは左を基準にテーブルをつなげる
+my_itemsのデータはcartsと結びつかないものも含めて全て表示する
+onはwhereと同じ役割
+
+SELECT item_name, SUM(count) FROM my_items m LEFT JOIN carts c ON m.id = c.item_id GROUP BY item_name;

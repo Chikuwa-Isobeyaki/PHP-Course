@@ -1,0 +1,3 @@
+SELECT * FROM `my_items` WHERE id = 1 OR id = 3の省略
+
+SELECT * FROM `my_items` WHERE id IN(1,3);

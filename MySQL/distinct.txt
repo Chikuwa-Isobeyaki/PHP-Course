@@ -1,0 +1,2 @@
+DISTINCTは重複をなくして表示する。
+SELECT DISTINCT item_id FROM carts

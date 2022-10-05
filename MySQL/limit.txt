@@ -1,0 +1,5 @@
+上から2件表示
+SELECT * FROM `my_items` LIMIT 2;
+
+上から2件飛ばして3件表示する
+SELECT * FROM `my_items` LIMIT 2,3;

@@ -1,0 +1,3 @@
+asでselectした表示がsales_countに変わる
+
+SELECT SUM(count) as sales_count FROM carts;

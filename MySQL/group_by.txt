@@ -1,5 +1,6 @@
 各itemが何個売れたか確認
 group by でitemをグループ化
+group by はselectで指定したカラム名しか使用できない
 
 SELECT item_id, SUM(count) from carts GROUP BY item_id;
 
