@@ -1,0 +1,9 @@
+SELECT * FROM my_items ORDER BY price asc;
+
+SELECT * FROM my_items ORDER BY price desc;
+
+SELECT * FROM my_items ORDER BY price;
+
+SELECT * FROM `my_items` WHERE price > 100 ORDER BY price;
+
+SELECT * FROM `my_items` ORDER BY item_name_kana;

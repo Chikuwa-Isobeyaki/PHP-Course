@@ -1,0 +1,3 @@
+SELECT * FROM my_items, makers WHERE makers.id = my_items.maker_id;
+
+SELECT * FROM my_items i, makers m WHERE m.id = i.maker_id;

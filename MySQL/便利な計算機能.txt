@@ -1,0 +1,9 @@
+SELECT count(*) FROM my_items;
+
+SELECT sum(price) FROM my_items;
+
+SELECT min(sales) FROM my_items;
+
+SELECT max(sales) FROM my_items;
+
+SELECT avg(price) FROM my_items;
