@@ -1,0 +1,6 @@
+SELECT m.name, i.item_name, SUM(c.count) as sales_count 
+FROM makers m, my_items i LEFT JOIN carts c 
+ON i.id = c.item_id 
+WHERE m.id = i.maker_id 
+GROUP BY m.name, i.item_name 
+ORDER BY sales_count DESC;
