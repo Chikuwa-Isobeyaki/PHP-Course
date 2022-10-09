@@ -14,8 +14,8 @@
   if (!$stmt):
     die($db->error);
   endif;
-  // bind_paramsで?に値をセット
-  $stmt->bind_params('s', $message);
+  // bind_paramで?に値をセット
+  $stmt->bind_param('s', $message);
   // execute()は実行すると言う意味
   $ret = $stmt->execute();
   if ($ret):
